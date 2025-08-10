@@ -17,9 +17,9 @@ Uma implementação minimalista e tipada de um **Either Monad** em TypeScript, �
 ## 📥 Instalação
 
 ```bash
-npm install either-monad
+npm install @devmaggioni/either-monad
 # ou
-yarn add either-monad
+yarn add @devmaggioni/either-monad
 ```
 
 ---
@@ -120,4 +120,4 @@ console.log(resultado2.isLeft(), resultado2.value); // true, "Divisão por zero!
 
 ## 📜 Licença
 
-[MIT](./LICENSE) — Livre para uso pessoal e comercial.
+MIT — Livre para uso pessoal e comercial.

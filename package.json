@@ -25,6 +25,7 @@
     "pino": "^9.8.0",
     "pino-pretty": "^13.1.1"
   },
+  "homepage": "https://github.com/devmaggioni/either-monad",
   "repository": {
     "type": "git",
     "url": "https://github.com/devmaggioni/either-monad.git"
