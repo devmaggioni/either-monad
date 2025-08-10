@@ -1,7 +1,7 @@
 {
-  "name": "either-monad",
+  "name": "@devmaggioni/either-monad",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc && tsc-alias",
@@ -13,7 +13,7 @@
     "error handling"
   ],
   "author": "Gabriel Maggioni",
-  "license": "ISC",
+  "license": "MIT",
   "description": "functional error handling, using the pattern or monad",
   "devDependencies": {
     "@types/node": "^24.2.1",
