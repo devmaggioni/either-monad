@@ -1,4 +1,6 @@
 # Either Monad
+[![npm version](https://img.shields.io/npm/v/@devmaggioni/either-monad.svg?style=flat&color=blue)](https://www.npmjs.com/package/@devmaggioni/either-monad)
+
 
 Um pacote TypeScript que implementa o padrão Either para tratamento de erros de forma funcional e type-safe.
 
