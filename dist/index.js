@@ -10,6 +10,12 @@ class Left {
         if (autoLog)
             logger_1.logger.error(value);
     }
+    get l() {
+        return true;
+    }
+    get r() {
+        return false;
+    }
     isLeft() {
         return true;
     }
@@ -31,6 +37,12 @@ class Right {
     type = "right";
     constructor(value) {
         this.value = value;
+    }
+    get l() {
+        return false;
+    }
+    get r() {
+        return true;
     }
     isLeft() {
         return false;

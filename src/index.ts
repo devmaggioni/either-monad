@@ -11,6 +11,13 @@ class Left<L> {
     if (autoLog) Logger.error(value);
   }
 
+  get l(): true {
+    return true;
+  }
+  get r(): false {
+    return false;
+  }
+
   isLeft(): this is Left<L> {
     return true;
   }
@@ -35,6 +42,13 @@ class Right<R> {
 
   constructor(value: R) {
     this.value = value;
+  }
+
+  get l(): false {
+    return false;
+  }
+  get r(): true {
+    return true;
   }
 
   isLeft(): this is Left<never> {
